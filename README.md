@@ -1,5 +1,7 @@
 # Purpose
 
+[![Build Status](https://travis-ci.org/robertdebock/purpose.svg?branch=master)](https://travis-ci.org/robertdebock/purpose)
+
 ```
 Create playgounds for everybody
 ```
