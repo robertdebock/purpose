@@ -1,0 +1,45 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: test all goals
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: load 2018 goals
+      include_vars:
+        file: 2018.yml
+
+    - name: test 2018 goals
+      debug:
+        msg: "OK {{ item.name }}"
+      failed_when:
+        - item.state != "done"
+      with_items:
+        - "{{ goals }}"
+      ignore_errors: yes
+
+    - name: load 2019 goals
+      include_vars:
+        file: 2019.yml
+
+    - name: test 2019 goals
+      debug:
+        msg: "OK {{ item.name }}"
+      failed_when:
+        - item.state != "done"
+      with_items:
+        - "{{ goals }}"
+      ignore_errors: yes
+
+    - name: load 2020 goals
+      include_vars:
+        file: 2020.yml
+
+    - name: test 2020 goals
+      debug:
+        msg: "OK {{ item.name }}"
+      failed_when:
+        - item.state != "done"
+      with_items:
+        - "{{ goals }}"
+      ignore_errors: yes

@@ -1,0 +1,10 @@
+---
+goals:
+  - name: have a purpose
+    state: done
+  - name: make a drawing of the playground
+    state: todo
+  - name: we have a drawing of the end-game
+    state: todo
+  - name: sharing toys is the norm
+    state: doing

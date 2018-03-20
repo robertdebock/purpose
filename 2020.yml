@@ -1,0 +1,8 @@
+---
+goals:
+  - name: it's easy to create a new toy
+    state: todo
+  - name: we are responsible for our own toys
+    state: todo
+  - name: the end game is 80% done
+    state: todo

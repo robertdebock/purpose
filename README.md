@@ -1,6 +1,9 @@
 # Purpose
-My purpose with a plan to test my progress
 
-In order to develop myself, this repository captures my development goals and tests how far I am.
+```
+Create playgounds for everybody
+```
 
-# Test Driven Development for purpose
+# Reasoning
+
+When people get freedom to `play`, there is a chance that something beautiful is created. A playground is a safe area where people can experiment, meet others and develop a `gem`. (`gem`: Something magically creative, a spark that fuels improvement.)

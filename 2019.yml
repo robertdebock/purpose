@@ -1,0 +1,8 @@
+---
+goals:
+  - name: most teams can play
+    state: todo
+  - name: introducing a new toy is easy
+    state: todo
+  - name: we can brag about our toys
+    state: todo
