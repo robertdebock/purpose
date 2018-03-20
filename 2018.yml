@@ -2,9 +2,11 @@
 goals:
   - name: have a purpose
     state: done
+    result: create playgrounds for everyone
   - name: make a drawing of the playground
     state: todo
-  - name: we have a drawing of the end-game
+  - name: there is a drawing of the end-game
     state: todo
   - name: sharing toys is the norm
     state: doing
+    reasoning: contributing to opensource software helps

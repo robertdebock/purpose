@@ -2,7 +2,9 @@
 goals:
   - name: it's easy to create a new toy
     state: todo
+    reasoning: the current toys are difficult to include or remove from the endgame
   - name: we are responsible for our own toys
     state: todo
+    reasoning: it's difficult to maintain toys, teams need to clean up the playground themselves
   - name: the end game is 80% done
     state: todo

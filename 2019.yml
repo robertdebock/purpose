@@ -2,7 +2,9 @@
 goals:
   - name: most teams can play
     state: todo
+    reasoning: the endgame consists of many toys, testing the endgame helps
   - name: introducing a new toy is easy
     state: todo
   - name: we can brag about our toys
     state: todo
+    reasoning: we're on track if we feel we can present our playground
